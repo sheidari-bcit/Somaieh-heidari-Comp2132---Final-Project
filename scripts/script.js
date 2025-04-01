@@ -63,8 +63,17 @@ function handleGuess() {
 function updateHangman() {
     const imgPath = `images/hangman0${wrongGuesses}.png`;
     console.log("Image path:", imgPath);
-    document.getElementById('hangman-graphic').innerHTML = `<img src='${imgPath}' alt='Hangman'>`;
+  
+    const img = document.createElement("img");
+    img.src = imgPath;
+    img.alt = "Hangman";
+    img.classList.add("fade-in"); 
+  
+    const graphic = document.getElementById("hangman-graphic");
+    graphic.innerHTML = ""; 
+    graphic.appendChild(img); 
 }
+  
 
 function endGame(won) {
     document.getElementById('result').textContent = won

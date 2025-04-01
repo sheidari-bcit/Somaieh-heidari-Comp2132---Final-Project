@@ -1,5 +1,23 @@
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fade-in 0.5s ease-in-out;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Indie Flower", cursive;
   background-color: #f5f5f5;
   text-align: center;
   margin: 0;
@@ -70,7 +88,8 @@ button:hover {
 }
 
 #play-again-btn {
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: 450px;
 }
 
 #hangman-graphic img {
@@ -81,6 +100,6 @@ button:hover {
 @media (min-width: 676px) {
   #hangman-graphic img {
     height: auto;
-    max-width: 1000px;
+    max-width: 800px;
   }
-}
+}/*# sourceMappingURL=styles.css.map */
