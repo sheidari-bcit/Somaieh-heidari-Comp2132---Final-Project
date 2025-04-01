@@ -12,7 +12,7 @@ async function loadWords() {
 
 function startGame() {
     const randomIndex = Math.floor(Math.random() * words.length);
-    selectedWord = words[randomIndex].word.toLowerCase(); // convert once
+    selectedWord = words[randomIndex].word.toLowerCase(); 
     hint = words[randomIndex].hint;
     guessedLetters = [];
     wrongGuesses = 0;
@@ -46,11 +46,11 @@ function handleGuess() {
     guessedLetters.push(letter);
 
     if (selectedWord.includes(letter)) {
-        updateDisplay(); // correct guess
+        updateDisplay(); 
     } else {
-        wrongGuesses++; // wrong guess
+        wrongGuesses++;
         console.log("Wrong guesses count:", wrongGuesses);
-        updateHangman(); // update hangman image
+        updateHangman(); 
     }
 
     if (wrongGuesses >= 6) {
