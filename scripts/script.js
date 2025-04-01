@@ -9,7 +9,7 @@ async function loadWords() {
     words = await response.json();
     startGame();
 }
-//TEST
+//TESTTTT
 function startGame() {
     const randomIndex = Math.floor(Math.random() * words.length);
     selectedWord = words[randomIndex].word.toLowerCase(); 
