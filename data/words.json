@@ -1,0 +1,46 @@
+[
+  {
+    "word": "javascript",
+    "hint": "A popular programming language for web development."
+  },
+  {
+    "word": "hangman",
+    "hint": "The name of the game you're playing now."
+  },
+  {
+    "word": "computer",
+    "hint": "An electronic device that processes data."
+  },
+  {
+    "word": "internet",
+    "hint": "A global system of interconnected computer networks."
+  },
+  {
+    "word": "function",
+    "hint": "A block of reusable code in programming."
+  },
+  {
+    "word": "variable",
+    "hint": "A container for storing data values."
+  },
+  {
+    "word": "algorithm",
+    "hint": "A step-by-step procedure to solve a problem."
+  },
+  {
+    "word": "software",
+    "hint": "A collection of data or computer instructions."
+  },
+  {
+    "word": "framework",
+    "hint": "A platform for developing software applications."
+  },
+  {
+    "word": "database",
+    "hint": "An organized collection of data."
+  },
+  {
+    "word": "oxygen",
+    "hint": "Humans would perish without it."
+  }
+]
