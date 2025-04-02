@@ -1,11 +1,5 @@
 $primary-color: #4caf50;
 $font-family: "Indie Flower", cursive;
-.indie-flower-regular {
-  font-family: "Indie Flower", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 
 @mixin button-styles {
     background-color: $primary-color;
@@ -15,6 +9,7 @@ $font-family: "Indie Flower", cursive;
     cursor: pointer;
     &:hover {
       background-color: darken($primary-color, 10%);
+
     }
   }
   @keyframes fade-in {
@@ -37,6 +32,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 50px;
+   
   }
  
 header, footer{
@@ -60,6 +56,7 @@ footer{
     text-align: left;
     display: flex;
     justify-content:space-evenly;
+    font-size: 20px;
 }
 
   #wrapper{
@@ -90,6 +87,8 @@ footer{
   button {
     @include button-styles;
     margin-top: 10px;
+    font-family: $font-family;
+   font-size: 20px;
   }
  
   
@@ -113,6 +112,6 @@ footer{
     #hangman-graphic img {
         
         height: auto;
-        max-width: 800px;
+        width: 800px;
        }
 }
